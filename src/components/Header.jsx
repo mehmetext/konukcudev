@@ -1,3 +1,4 @@
+import MehmetKonukcu from "./MehmetKonukcu";
 import ProfileImage from "./ProfileImage";
 import SocialButtons from "./SocialButtons";
 
@@ -9,6 +10,7 @@ export default function Header() {
 					<div className="container flex justify-center items-center flex-col">
 						<ProfileImage />
 						<SocialButtons />
+						<MehmetKonukcu title="Selam, ben..." />
 					</div>
 				</div>
 			</div>
