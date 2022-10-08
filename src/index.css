@@ -37,4 +37,8 @@
 	.social-item {
 		@apply sm:h-12 sm:w-12 h-10 w-10 flex justify-center items-center bg-white bg-opacity-5 rounded-full;
 	}
+
+	.logo-arrows {
+		@apply relative pb-[36px] before:h-[30px] sm:before:block before:hidden before:absolute before:left-1/2 before:translate-x-[-2px] before:bottom-0 before:w-[4px] before:bg-white;
+	}
 }

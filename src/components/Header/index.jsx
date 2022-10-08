@@ -1,5 +1,5 @@
 import ContinueButton from "./ContinueButton";
-import MehmetKonukcu from "./MehmetKonukcu";
+import MehmetKonukcu from "../MehmetKonukcu";
 import ProfileImage from "./ProfileImage";
 import SocialButtons from "./SocialButtons";
 
