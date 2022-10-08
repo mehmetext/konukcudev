@@ -39,6 +39,27 @@
 	}
 
 	.logo-arrows {
-		@apply relative pb-[36px] before:h-[30px] sm:before:block before:hidden before:absolute before:left-1/2 before:translate-x-[-2px] before:bottom-0 before:w-[4px] before:bg-white;
+		@apply relative md:pb-[36px] before:h-[30px] md:before:block before:hidden before:absolute before:left-1/2 before:translate-x-[-2px] before:bottom-0 before:w-[4px] before:bg-white;
+	}
+
+	.okayWho-icon {
+		@apply flex justify-center items-center flex-col mt-4 md:mt-0 relative px-1 pt-[calc(50px+1rem)] before:block after:block;
+	}
+
+	.okayWho-icon::before {
+		@apply absolute top-0 left-0 right-0 h-[4px] bg-white;
+	}
+
+	.okayWho-icon:first-child::before {
+		@apply md:left-1/2;
+	}
+
+	.okayWho-icon:last-child::before {
+		@apply md:right-1/2;
+	}
+
+	.okayWho-icon::after {
+		transform: translateX(-50%);
+		@apply absolute top-0 left-1/2 w-[4px] bg-white h-[50px];
 	}
 }
