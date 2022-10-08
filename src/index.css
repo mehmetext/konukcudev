@@ -1,9 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+	html {
+		font-family: "Roboto", sans-serif;
+	}
+
 	body {
 		@apply bg-black text-white;
+	}
+
+	a.social-container {
+		@apply sm:mr-2 no-underline bg-white bg-opacity-10 p-1 rounded-full text-white text-2xl transition-all ease-linear m-1;
+	}
+
+	a.social-container:first-child {
+		@apply sm:mr-1;
+	}
+
+	a.social-container:nth-last-child(2) {
+		@apply sm:mr-1;
+	}
+
+	a.social-container:last-child {
+	}
+
+	a.social-container:first-child,
+	a.social-container:last-child {
+		@apply sm:-top-7 relative;
+	}
+
+	.social-item {
+		@apply sm:h-12 sm:w-12 h-10 w-10 flex justify-center items-center bg-white bg-opacity-5 rounded-full;
 	}
 }
