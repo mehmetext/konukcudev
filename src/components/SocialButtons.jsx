@@ -7,6 +7,7 @@ export default function SocialButtons() {
 				href="https://github.com/mehmetext"
 				className="social-container"
 				target="_blank"
+				rel="noreferrer"
 			>
 				<div className="social-item">
 					<FaGithub />
@@ -16,6 +17,7 @@ export default function SocialButtons() {
 				href="https://www.instagram.com/mehmetext"
 				className="social-container"
 				target="_blank"
+				rel="noreferrer"
 			>
 				<div className="social-item">
 					<FaInstagram />
@@ -25,6 +27,7 @@ export default function SocialButtons() {
 				href="https://www.linkedin.com/in/mehmetkonukcu/"
 				className="social-container"
 				target="_blank"
+				rel="noreferrer"
 			>
 				<div className="social-item">
 					<FaLinkedin />
@@ -34,6 +37,7 @@ export default function SocialButtons() {
 				href="https://twitter.com/memofobi"
 				className="social-container"
 				target="_blank"
+				rel="noreferrer"
 			>
 				<div className="social-item">
 					<FaTwitter />
