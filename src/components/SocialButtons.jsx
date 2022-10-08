@@ -2,7 +2,7 @@ import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function SocialButtons() {
 	return (
-		<div className="flex items-center flex-wrap justify-center">
+		<div className="flex items-center flex-wrap justify-center mb-3">
 			<a
 				href="https://github.com/mehmetext"
 				className="social-container"
