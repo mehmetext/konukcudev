@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import MyExperiences from "./components/MyExperiences";
 import OkayWho from "./components/OkayWho";
+import WhatDidIDo from "./components/WhatDidIDo";
 
 export default function App() {
 	return (
@@ -8,6 +9,7 @@ export default function App() {
 			<Header />
 			<OkayWho />
 			<MyExperiences />
+			<WhatDidIDo />
 		</>
 	);
 }

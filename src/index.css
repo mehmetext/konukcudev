@@ -62,4 +62,8 @@
 		transform: translateX(-50%);
 		@apply absolute top-0 left-1/2 w-[4px] bg-white h-[50px];
 	}
+
+	.container {
+		@apply !max-w-[1000px];
+	}
 }

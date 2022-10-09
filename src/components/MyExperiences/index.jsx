@@ -4,7 +4,6 @@ import Experience from "./Experience";
 import Title from "./Title";
 
 export default function MyExperiences() {
-	console.log(myExperiences);
 	return (
 		<>
 			{myExperiences.map((experienceGroup, i) => {

@@ -6,19 +6,19 @@ export default function Icons() {
 			<div className="okayWho-icon">
 				<FaMobileAlt className="mb-4 text-9xl" />
 				<div className="font-slab font-bold text-center text-2xl">
-					Mobil Uygulama Geliştirici
+					Mobil Uygulama <br /> Geliştirici
 				</div>
 			</div>
 			<div className="okayWho-icon">
 				<FaGlobe className="mb-4 text-9xl" />
 				<div className="font-slab font-bold text-center text-2xl">
-					Website Geliştirici
+					Website <br /> Geliştirici
 				</div>
 			</div>
 			<div className="okayWho-icon">
 				<FaBrush className="mb-4 text-9xl" />
 				<div className="font-slab font-bold text-center text-2xl">
-					Grafik Tasarımcı
+					Grafik <br /> Tasarımcı
 				</div>
 			</div>
 		</div>
