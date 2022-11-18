@@ -8,7 +8,7 @@ export default function MyExperiences() {
 		<>
 			{myExperiences.map((experienceGroup, i) => {
 				return (
-					<Section isLight={i % 2 === 1}>
+					<Section key={i} isLight={i % 2 === 1}>
 						<Title title={experienceGroup.experienceGroupName} />
 						<div className="grid sm:grid-cols-2 gap-4 w-full">
 							{experienceGroup.experiences.map((experience, j) => {

@@ -13,7 +13,7 @@ export default function ReferenceGroup({ referenceGroup }) {
 			<div className="flex flex-row flex-wrap justify-center md:justify-start">
 				{referenceGroup.references.map((reference, i) => {
 					return (
-						<div className="flex justify-start flex-col mt-4 mr-6">
+						<div key={i} className="flex justify-start flex-col mt-4 mr-6">
 							<div className="w-full rounded-xl overflow-hidden mb-2">
 								<img
 									src={`${process.env.PUBLIC_URL}/images/${reference.image}`}
