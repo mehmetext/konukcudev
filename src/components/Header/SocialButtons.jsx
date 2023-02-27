@@ -1,4 +1,10 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+	FaGithub,
+	FaGitlab,
+	FaInstagram,
+	FaLinkedin,
+	FaTwitter,
+} from "react-icons/fa";
 
 export default function SocialButtons() {
 	return (
@@ -11,6 +17,16 @@ export default function SocialButtons() {
 			>
 				<div className="social-item">
 					<FaGithub />
+				</div>
+			</a>
+			<a
+				href="https://gitlab.com/mehmetext"
+				className="social-container"
+				target="_blank"
+				rel="noreferrer"
+			>
+				<div className="social-item">
+					<FaGitlab />
 				</div>
 			</a>
 			<a

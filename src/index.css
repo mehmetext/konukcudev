@@ -19,19 +19,21 @@
 	}
 
 	a.social-container:first-child {
-		@apply sm:mr-1;
+		@apply sm:-mr-1;
 	}
 
 	a.social-container:nth-last-child(2) {
-		@apply sm:mr-1;
-	}
-
-	a.social-container:last-child {
+		@apply sm:-mr-1;
 	}
 
 	a.social-container:first-child,
 	a.social-container:last-child {
-		@apply sm:-top-7 relative;
+		@apply sm:-top-12 relative;
+	}
+
+	a.social-container:nth-child(2),
+	a.social-container:nth-last-child(2) {
+		@apply sm:-top-3 relative;
 	}
 
 	.social-item {
